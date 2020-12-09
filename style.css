@@ -1,0 +1,1745 @@
+@charset "UTF-8";
+@font-face {font-family: "Agency FB V2";
+  src: url("fonts/AgencyFb/f9b9a4fce362a3a9111c138859ccb422.eot"); /* IE9*/
+  src: url("fonts/AgencyFb/f9b9a4fce362a3a9111c138859ccb422.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/AgencyFb/f9b9a4fce362a3a9111c138859ccb422.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/AgencyFb/f9b9a4fce362a3a9111c138859ccb422.woff") format("woff"), /* chrome、firefox */
+  url("fonts/AgencyFb/f9b9a4fce362a3a9111c138859ccb422.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/AgencyFb/f9b9a4fce362a3a9111c138859ccb422.svg#Agency FB V2") format("svg"); /* iOS 4.1- */
+}
+
+
+
+@font-face {font-family: "Bradley Hand ITC V2";
+  src: url("fonts/BradleyHand/0252223e8c36008b595f5e379ad5e524.eot"); /* IE9*/
+  src: url("fonts/BradleyHand/0252223e8c36008b595f5e379ad5e524.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/BradleyHand/0252223e8c36008b595f5e379ad5e524.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/BradleyHand/0252223e8c36008b595f5e379ad5e524.woff") format("woff"), /* chrome、firefox */
+  url("fonts/BradleyHand/0252223e8c36008b595f5e379ad5e524.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/BradleyHand/0252223e8c36008b595f5e379ad5e524.svg#Bradley Hand ITC V2") format("svg"); /* iOS 4.1- */
+}
+
+
+@font-face {font-family: "Tempus Sans ITC";
+  src: url("fonts/Tempus/261506be3344b3806eefa054f0f6fbf1.eot"); /* IE9*/
+  src: url("fonts/Tempus/261506be3344b3806eefa054f0f6fbf1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/Tempus/261506be3344b3806eefa054f0f6fbf1.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/Tempus/261506be3344b3806eefa054f0f6fbf1.woff") format("woff"), /* chrome、firefox */
+  url("fonts/Tempus/261506be3344b3806eefa054f0f6fbf1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/Tempus/261506be3344b3806eefa054f0f6fbf1.svg#Tempus Sans ITC") format("svg"); /* iOS 4.1- */
+}
+
+
+
+
+.home-container{
+    
+    
+    background-color: rgba(179, 179, 179, 0.45);
+    padding-bottom: 7px;
+ 
+    
+   
+}
+
+
+.mountain{
+
+  margin-top:131px ;
+  
+
+}
+ .design-content{
+  margin-top: 85px;
+ }
+ .develop-content{
+
+  margin-top: 85px; margin-left: 86px;
+ }
+ .car-content{
+
+  margin-top: 95px; margin-left: 86px;
+ }
+ .car-content-jquery{
+
+  margin-top: 95px; margin-left: 86px;
+ }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f175; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.568); 
+}
+
+
+
+
+
+
+.navbar{
+    
+    background-color: rgba(0, 0, 0, 0.47) ! important;
+    color: #3fa9f5;
+    
+   
+
+    
+}
+.navbar-nav{
+    margin-right: 10px ! important;
+
+}
+
+button:focus {
+   outline:none ! important;
+}
+.nav-link{
+    
+    font-family: 'oswald' !important;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+:focus{
+    outline: none ! important;
+}
+/* a:hover{
+    
+
+    color: antiquewhite;
+    transition-delay: 0.5s;
+    transition: smooth;
+   
+    border-bottom:  #ffffff 0.7px solid;
+} */
+
+a:hover{
+
+ 
+  color: antiquewhite;
+    transition-delay: 0.5s;
+    transition: smooth;
+    text-decoration: none;
+    
+   
+    border-bottom:  #081f2094 1px solid;
+    
+}
+.nav-link:hover{
+
+  color: antiquewhite;
+  transition-delay: 0.5s;
+  transition: smooth;
+ 
+  border-bottom:  #ffffff 0.7px solid;
+}
+
+.imgs{
+margin-left: 40px;
+}
+
+.name{
+    
+    color: black;
+    opacity: 55%;
+    font-family: 'sacramento';
+    font-size: 71px;
+    height: 67px;
+    margin-bottom: 0px;
+    
+}
+.name1{
+
+    font-size:20px;
+    font-family:"Tempus Sans ITC";
+    height: 30px;
+    margin-bottom: 0px;
+    opacity: 70%;
+    padding-bottom: 0;
+    margin-left: 138px;
+    
+}
+.logo-comp{
+
+  margin-right:82px ;
+}
+.logo-common{
+
+  margin-right:82px ;
+}
+.underline{
+    border-bottom:  rgba(0, 0, 0, 0.4) 2px solid;
+    
+    
+}
+.mar{
+    margin-right: 105px;
+    margin-top: 30px;
+
+}
+.text{
+
+    margin-left: 685px;
+}
+
+.marc{
+
+    margin-left: 114px;
+    margin-top: 71px;
+    position:absolute;
+
+}
+.cl{
+
+    position: absolute;
+    z-index: -1;
+     margin-top: 325px;
+   margin-left: 544px;
+}
+.what_{
+    color: black;
+    opacity: 54%;
+    font-family: 'sacramento';
+    font-size: 80px;
+    height: 67px;
+    margin-bottom: 0px;
+
+}
+.image-text{
+  position: absolute;     margin-top: 171px
+}
+
+.second-cont{
+
+    height: 660px; background-color: #b3b3b33b;
+}
+
+.heading-1{
+
+font-family: "Bradley Hand ITC V2";
+font-size: 45px;
+margin-bottom: 0;
+height: 71px;
+
+
+}
+
+.content-1{
+
+    font-size: 30px;
+    font-family: "Agency FB V2" ! important;
+    line-height: 28px;
+    
+  text-align: justify !important;
+
+
+
+
+}
+.logo{
+    width: auto;
+    height: 152px;
+    margin-top: 8px;
+    margin-left: 163px;
+    
+}
+.logo-jquery{
+  margin-right:82px ; height: 80px; margin-top: 34px;
+}
+.content_{
+
+    margin-right: 88px;
+}
+.content_1{
+  margin-left: 88px;
+
+
+}
+
+.third-cont{
+
+
+    height: 100vh;
+    padding-top: 60px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .logos{
+
+    width: auto;
+    height: 152px;
+    margin-top: 8px;
+    margin-left: 149px;
+  }
+.marq{
+  background-color:#46657a07;margin-top: 105px;
+}
+  .last{
+
+    font-family: "Bradley Hand ITC V2";
+    margin-top:70px;
+    font-size:34px;
+
+  }
+  .last-para{
+
+    font-family: "Agency FB V2" ! important;
+    font-size:25px;
+    line-height: 27px;
+
+  }
+
+.btn{
+
+    font-family:"Bradley Hand ITC V2" ;
+    font-size: 23px ! important;
+    margin-top: 35px;
+    font-weight: 600 ! important;
+    color: #3fa9f594;
+
+}
+
+.btn-outline-primary:hover {
+    color: antiquewhite;
+    background-color: #3fa9f5;
+    border-color: #007bff;
+    font-family: "Bradley Hand ITC V2";
+    font-weight: 900 ! important;
+}
+
+
+.line{
+
+    width: 100%;
+    border-top-width: 3px;
+ 
+    margin-bottom: 3px ! important;
+    
+}
+hr {
+    height: 4px;
+    margin-left: 15px;
+    margin-bottom:-3px;
+  }
+  .hr-warning{
+    background-image: -webkit-linear-gradient(left, rgba(210,105,30,.8), rgba(210,105,30,.6), rgba(0,0,0,0));
+  }
+  .foot-icon{
+
+    margin-bottom: 0px;
+    height: 33px;
+    margin-top: 9px;
+    margin-left: 8px;
+    font-size: 15px ! important;
+    font-weight: 900;
+    color:#3fa9f5b7;
+    font-family: 'oswald' !important;
+
+  }
+  .fourth-cont{
+    margin-top:48px;padding-top: 40px;height:601px; background-color: rgba(0, 0, 0, 0.02);
+  }
+  .foot-cont{
+    margin-left: 107px;
+  }
+
+  #marq{
+    animation: marquee 10s linear infinite;
+
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee2 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }
+  .arrow{
+
+    visibility: hidden;
+  }
+
+  .btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+    border: none;
+}
+
+.arrow-normal{
+
+  transition: ease-in-out;
+
+}
+
+
+@media only screen and (max-width: 1266px) {
+
+
+.name{
+  font-size: 66px;
+
+}
+.name1{
+  font-size: 18px;
+}
+.cl{
+  margin-left: 509px;
+}
+
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+.name1{
+  font-size: 15px;
+}
+
+.name{
+  font-size: 64px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 1204px) {
+
+
+.name1{
+
+  font-size: 14px;
+
+}
+.name{
+  font-size: 62px;
+  height: 62px;
+}
+.cl{
+
+  margin-left: 495px;
+}
+.fourth-cont{
+  margin-top: 85px;
+}
+
+}
+
+@media only screen and (max-width: 1204px) {
+
+  .name1{
+    margin-left: 120px;
+    font-size: 15px;
+  }}
+  
+
+@media only screen and (max-width: 1160px) {
+
+.name1{
+  margin-left: 83px;
+}
+.cl{
+  margin-left: 450px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+
+.text{
+  margin-left: 410px;
+}
+
+.cl{
+
+  margin-left: 410px;
+}
+
+.second-cont{
+  height: 700px;
+}
+
+.fourth-cont{
+  margin-top: 120px;
+}
+.mar{
+  margin-right: 50px;
+}
+.logo{
+  margin-left: 40px;
+}
+.content_1{
+
+  margin-left: -29px;
+}
+
+
+.logo-comp{
+
+  margin-right: 7px;
+}
+.foot-icon{
+
+
+  font-size: 13px ! important;
+}
+
+
+
+}
+
+@media only screen and (max-width: 964px) {
+
+
+.cl{
+  margin-left: 380px;
+}
+.content_{
+  margin-right: 8px;
+}
+
+img.logos{
+  height: 28px;
+}
+
+a{
+
+  margin-left:20px ;
+}
+
+.width-foot{
+  width: 108px;
+}
+
+.logo-jquery{
+
+  margin-right: 20px ! important;
+  height:60px ;
+}
+.logo-common{
+
+  margin-right: 30px;
+  height: 105px;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 846px) {
+
+.name{
+
+font-size: 55px;
+height: 58px;
+}
+
+.content-1{
+
+  font-size: 27px;
+
+
+}
+
+.heading-1{
+  font-size:40px ;
+  height: 67px;
+}
+.last{
+
+  margin-top: 52px;
+}
+.mountain{
+  height: 346px ! important;
+  width: 628px ! important;
+  margin-top: 84px;
+
+}
+
+.marc{
+
+  margin-left: 0px;
+}
+
+.cl{
+
+
+  margin-left: 348px;
+    margin-top: 273px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* ---------------scroll- Bar--------------- */
+  
+
+
+  /* <-- Main-container--> */
+
+.mar{
+  margin-right: 0px;
+  margin-top: 30px;
+margin-bottom:20px;
+}
+
+.cl{
+  
+  margin-left: -70px;
+  position: relative;
+  z-index: -1;
+  margin-top:0px;
+  
+}
+
+
+
+.marc{
+display: none;
+
+  
+}
+.text{
+margin-left: 20px;
+display: inline;
+  
+}
+
+
+.name{
+  color: black;
+  opacity: 55%;
+  font-family: 'sacramento';
+  font-size: 55px;
+  height: 54px;
+  margin-bottom: 0px;
+}
+
+
+.name1{
+  font-size: 13px;
+    font-family: "Tempus Sans ITC";
+    height: 40px;
+    margin-bottom: 0px;
+    opacity: 70%;
+    padding-bottom: 0;
+    margin-left: 120px;
+}
+.mountain{
+
+  margin-top: 0px ;
+  height: 370px;
+    width: 100%;
+}
+
+.image-text{
+  position: relative;
+  margin-top: 0px;
+}
+
+/* <-----------------2nd Container--------------> */
+
+
+.design-content{
+  flex-direction: column!important;
+  margin-top: 20px;
+}
+
+
+.logo-sm{
+
+margin-left: auto !important;
+margin-right: auto !important;
+height: 180px;
+width: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.logo-jquery{
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 88px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.develop-content{
+
+  flex-direction: column-reverse!important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.car-content{
+
+  flex-direction: column-reverse!important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.car-content-jquery{
+
+  flex-direction: column-reverse!important;
+  margin-top: 110px;
+  margin-left: 0px;
+ }
+
+
+.what_{
+
+  color: black;
+  opacity: 54%;
+  font-family: 'sacramento';
+  font-size: 55px;
+  height: 67px;
+  margin-bottom: 0px;
+}
+.content_{
+
+  margin-left: auto !important;
+margin-right: auto !important;
+}
+
+.content_1{
+  margin-left: auto !important;
+margin-right: auto !important;
+
+}
+
+
+.heading-1{
+
+  font-size:37px ;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px;
+  height: 60px;
+  text-align: justify;
+}
+.content-1{
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+text-align: center;
+ 
+}
+.next-line{
+  display: none;
+}
+
+.logo-comp{
+  margin-right: 0px;
+  height: 170px;
+
+}
+.logo-common{
+  margin-right: 0px;
+  
+
+}
+.marq{
+  background-color:#46657a07;margin-top: 20px;
+}
+
+
+.second-cont{
+  height: 1000px;
+}
+
+/* ---------------third Container---------------- */
+
+
+.third-cont{
+  height: 703px;
+}
+
+.width-foot{
+  width: 130px;
+}
+
+.nav-link{
+
+  color:antiquewhite;
+  font-family: "Agency FB V2"! important;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------fourth Container----------------------- */
+
+
+
+.foot-cont{
+  margin-left: 0px;
+}
+
+.foot-icon{
+  margin-left: 8px!important;
+  font-family: "Agency FB V2"!important;
+  font-size: 20px !important;
+ 
+
+}
+
+
+
+
+
+.last{
+
+  margin-top: 30px;
+}
+
+
+.a:hover{
+  text-decoration: none;
+}
+
+
+  
+}
+
+
+@media only screen and (max-width: 710px) {
+
+.mountain{
+  height: 250px ! important;
+    width: 500px ! important;
+}
+.fourth-cont{
+  margin-top: 4px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  /* ---------------scroll- Bar--------------- */
+  
+
+
+  /* <-- Main-container--> */
+
+.mar{
+  margin-right: 0px;
+  margin-top: 30px;
+margin-bottom:20px;
+}
+
+.cl{
+  
+  margin-left: -70px;
+  position: relative;
+  z-index: -1;
+  margin-top:0px;
+  
+}
+
+
+
+.marc{
+display: none;
+
+  
+}
+.text{
+margin-left: 20px;
+display: inline;
+  
+}
+
+
+.name{
+  color: black;
+  opacity: 55%;
+  font-family: 'sacramento';
+  font-size: 55px;
+  height: 54px;
+  margin-bottom: 0px;
+}
+
+
+.name1{
+  font-size: 13px;
+    font-family: "Tempus Sans ITC";
+    height: 40px;
+    margin-bottom: 0px;
+    opacity: 70%;
+    padding-bottom: 0;
+    margin-left: 120px;
+}
+.mountain{
+
+  margin-top: 0px ;
+  height: 200px ! important;
+    width: 425px ! important;
+}
+
+.image-text{
+  position: relative;
+  margin-top: 0px;
+}
+
+/* <-----------------2nd Container--------------> */
+
+
+.design-content{
+  flex-direction: column!important;
+  margin-top: 20px;
+}
+
+
+.logo-sm{
+
+margin-left: auto !important;
+margin-right: auto !important;
+height: 180px;
+width: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.logo-jquery{
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 88px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.develop-content{
+
+  flex-direction: column-reverse!important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.car-content{
+
+  flex-direction: column-reverse!important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.car-content-jquery{
+
+  flex-direction: column-reverse!important;
+  margin-top: 110px;
+  margin-left: 0px;
+ }
+
+
+.what_{
+
+  color: black;
+  opacity: 54%;
+  font-family: 'sacramento';
+  font-size: 55px;
+  height: 67px;
+  margin-bottom: 0px;
+}
+.content_{
+
+  margin-left: auto !important;
+margin-right: auto !important;
+}
+
+.content_1{
+  margin-left: auto !important;
+margin-right: auto !important;
+
+}
+
+
+.heading-1{
+
+  font-size:37px ;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px;
+  height: 60px;
+  text-align: justify;
+}
+.content-1{
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+text-align: center;
+ 
+}
+.next-line{
+  display: none;
+}
+
+.logo-comp{
+  margin-right: 0px;
+  height: 170px;
+
+}
+.logo-common{
+  margin-right: 0px;
+  
+
+}
+.marq{
+  background-color:#46657a07;margin-top: 20px;
+}
+
+
+.second-cont{
+  height: 1000px;
+}
+
+/* ---------------third Container---------------- */
+
+
+
+
+.nav-link{
+
+  color:antiquewhite;
+  font-family: "Agency FB V2"! important;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------fourth Container----------------------- */
+
+
+
+
+  
+
+
+.foot-cont{
+  margin-left: 0px;
+}
+
+.foot-icon{
+  margin-left: 8px!important;
+  font-family: "Agency FB V2" !important;
+  font-size: 20px !important;
+
+}
+
+
+
+
+.last{
+
+  margin-top: 30px;
+}
+
+
+.a:hover{
+  text-decoration: none;
+}
+
+
+  
+}
+
+@media only screen and (max-width: 510px) {
+
+
+}
+
+@media only screen and (max-width :450px){
+
+  .mountain{
+    margin-top: 0px;
+    height: 190px ! important;
+    width: 394px ! important;
+  }
+  
+  .what_{
+    font-size: 45px;
+  }
+  
+  }
+  
+
+  @media only screen and (max-width :420px){
+
+.mountain{
+
+  height: 167px ! important;
+    width: 332px ! important;
+}
+
+
+
+  }
+
+@media only screen and (max-width: 375px) {
+
+  /* ---------------scroll- Bar--------------- */
+  
+
+
+  /* <-- Main-container--> */
+
+.mar{
+  margin-right: 0px;
+  margin-top: 30px;
+margin-bottom:20px;
+}
+
+.cl{
+  
+  margin-left: -70px;
+  position: relative;
+  z-index: -1;
+  margin-top:0px;
+  
+}
+
+
+
+.marc{
+display: none;
+
+  
+}
+.text{
+margin-left: 20px;
+display: inline;
+  
+}
+
+
+.name{
+  color: black;
+  opacity: 55%;
+  font-family: 'sacramento';
+  font-size: 55px;
+  height: 54px;
+  margin-bottom: 0px;
+}
+
+
+.name1{
+  font-size: 13px;
+    font-family: "Tempus Sans ITC";
+    height: 40px;
+    margin-bottom: 0px;
+    opacity: 70%;
+    padding-bottom: 0;
+    margin-left: 120px;
+}
+.mountain{
+
+  margin-top: 0px ;
+  height: 180px ! important;
+    width: 100% ! important;
+}
+
+.image-text{
+  position: relative;
+  margin-top: 0px;
+}
+
+/* <-----------------2nd Container--------------> */
+
+
+.design-content{
+  flex-direction: column!important;
+  margin-top: 20px;
+}
+
+
+.logo-sm{
+
+margin-left: auto !important;
+margin-right: auto !important;
+height: 180px;
+width: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.logo-jquery{
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 88px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.develop-content{
+
+  flex-direction: column-reverse!important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.car-content{
+
+  flex-direction: column-reverse!important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.car-content-jquery{
+
+  flex-direction: column-reverse!important;
+  margin-top: 110px;
+  margin-left: 0px;
+ }
+
+
+.what_{
+
+  color: black;
+  opacity: 54%;
+  font-family: 'sacramento';
+  font-size: 45px;
+  height: 67px;
+  margin-bottom: 0px;
+}
+.content_{
+
+  margin-left: auto !important;
+margin-right: auto !important;
+}
+
+.content_1{
+  margin-left: auto !important;
+margin-right: auto !important;
+
+}
+
+
+.heading-1{
+
+  font-size:34px ;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px;
+  height: 60px;
+  text-align: justify;
+}
+.content-1{
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+text-align: center;
+ 
+}
+.next-line{
+  display: none;
+}
+
+.logo-comp{
+  margin-right: 0px;
+  height: 170px;
+
+}
+.logo-common{
+  margin-right: 0px;
+  
+
+}
+.marq{
+  background-color:#46657a07;margin-top: 20px;
+}
+
+
+.second-cont{
+  height: 1000px;
+}
+
+/* ---------------third Container---------------- */
+
+
+
+.nav-link{
+
+  color:antiquewhite;
+  font-family: "Agency FB V2" ! important;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------fourth Container----------------------- */
+
+
+.fourth-cont{
+
+margin-top: 161px;
+  
+}
+
+.foot-cont{
+  margin-left: 0px;
+}
+
+.foot-icon{
+  margin-left: 8px!important;
+  font-family: "Agency FB V2" !important;
+  font-size: 20px !important;
+
+}
+
+
+
+
+.last{
+
+  margin-top: 30px;
+}
+
+
+.a:hover{
+  text-decoration: none;
+}
+
+
+  
+}
+
+
+@media only screen and (max-width: 355px) {
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:320px){
+
+  /* ---------------scroll- Bar--------------- */
+  
+
+
+  /* <-- Main-container--> */
+
+  .mar{
+    margin-right: 0px;
+    margin-top: 30px;
+  margin-bottom:20px;
+  width: 143px;
+    height: 39px;
+  }
+  
+  .cl{
+    
+    margin-left: -70px;
+    position: relative;
+    z-index: -1;
+    margin-top:0px;
+    width: 143px;
+    height: 39px;
+  }
+  
+  
+  
+  .marc{
+  display: none;
+  width: 143px;
+    height: 39px;
+    
+  }
+  .text{
+  margin-left: 20px;
+  display: inline;
+    
+  }
+  
+  
+  .name{
+    color: black;
+    opacity: 55%;
+    font-family: 'sacramento';
+    font-size: 45px;
+    height: 48px;
+    margin-bottom: 0px;
+  }
+  
+  
+  .name1{
+    font-size: 12px;
+      font-family: "Tempus Sans ITC";
+      height: 24px;
+      margin-bottom: 0px;
+      opacity: 70%;
+      padding-bottom: 0;
+      margin-left: 80px;
+  }
+  .mountain{
+  
+    margin-top: 0px ;
+    height: 160px ! important;
+      width: 100%;
+  }
+  
+  .image-text{
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  /* <-----------------2nd Container--------------> */
+  
+  
+  .design-content{
+    flex-direction: column!important;
+    margin-top: 20px;
+  }
+  
+  
+  .logo-sm{
+  
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 127px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  }
+  
+  .logo-jquery{
+  
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 65px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  
+  }
+  
+  .develop-content{
+  
+    flex-direction: column-reverse!important;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  
+  .car-content{
+  
+    flex-direction: column-reverse!important;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .car-content-jquery{
+  
+    flex-direction: column-reverse!important;
+    margin-top: 110px;
+    margin-left: 0px;
+   }
+  
+  
+  .what_{
+  
+    color: black;
+    opacity: 54%;
+    font-family: 'sacramento';
+    font-size: 38px;
+    height: 67px;
+    margin-bottom: 0px;
+  }
+  .content_{
+  
+    margin-left: auto !important;
+  margin-right: auto !important;
+  }
+  
+  .content_1{
+    margin-left: auto !important;
+  margin-right: auto !important;
+  
+  }
+  
+  
+  .heading-1{
+  
+    font-size:26px ;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px;
+    height: 60px;
+    text-align: justify;
+  }
+  .content-1{
+  
+    margin-left: auto !important;
+    margin-right: auto !important;
+  text-align: center;
+  font-size: 23px;
+   
+  }
+  .next-line{
+    display: none;
+  }
+  
+  .logo-comp{
+    margin-right: 0px;
+    height: 133px;
+  
+  }
+  .logo-common{
+    margin-right: 0px;
+    
+  
+  }
+  .marq{
+    background-color:#46657a07;margin-top: 20px;
+  }
+  
+  
+  .second-cont{
+    height: 1000px;
+  }
+  
+  /* ---------------third Container---------------- */
+  
+  
+
+  
+  .nav-link{
+  
+    color:antiquewhite;
+    font-family: "Agency FB V2" ! important;
+    font-size: larger;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* --------------------fourth Container----------------------- */
+  
+  
+  .fourth-cont{
+  
+  
+    margin-top: 0px;
+  }
+  
+  .foot-cont{
+    margin-left: 0px;
+  }
+  
+  .foot-icon{
+    margin-left: 8px!important;
+    font-family: "Agency FB V2" !important;
+    font-size: 16px !important;
+  
+  }
+  .last-para{
+
+    font-size: 22px;
+    line-height: 26px;
+  }
+  
+  
+  
+  .last{
+  
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  
+  
+  .a:hover{
+    text-decoration: none;
+  }
+  
+  
+    
+  
+  .width-foot{
+    width: 90px;
+  }
+
+  
+}
+
+
+@media only screen and (max-width:290px){
+
+.what_{
+
+  font-size: 33px;
+}
+.mountain{
+
+  height: 141px ! important;
+}
+
+.content-1{
+  font-size: 22px;
+}
+
+.heading-1{
+
+  font-size: 23px;
+  height: 37px;
+}
+
+.foot-icon{
+
+  font-size: 13px ! important;
+}
+
+
+.width-foot{
+  width: 79px ! important;
+}
+}
+
+@media only screen and (max-width:258px){
+
+.name{
+
+  font-size: 43px;
+  height: 40px;
+}
+.name1{
+  margin-left: 63px;
+}
+
+.what_{
+  font-size: 29px;
+}
+.heading-1{
+
+  font-size: 22px;
+
+
+}
+.content-1{
+
+  font-size:17px ;
+}
+
+
+
+
+}
